@@ -33,11 +33,8 @@ const Page = () => {
 				{/* Text Content */}
 				<div className="relative flex justify-center lg:justify-start w-full max-w-6xl px-5 text-white text-center lg:text-start">
 					<div className="w-full">
-						<h1 className="text-4xl hidden md:block md:text-[50px] font-bold leading-tight">
-							Trusted  HVAC & Air Conditioning Services Since 2012!
-						</h1>
-						<h1 className="text-4xl md:hidden md:text-[50px] font-bold leading-tight">
-							Trusted <br/> HVAC & Air Conditioning Services Since 2012!
+						<h1 className="text-4xl md:text-[50px] font-bold leading-tight">
+							Professional HVAC Contractor in Hillsborough County, FL
 						</h1>
 						<p className="mt-7 text-[20px]">
 							At Air It Cool, We Take Your Safety Seriously. We're
