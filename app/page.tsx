@@ -33,7 +33,7 @@ const Page = () => {
 				{/* Text Content */}
 				<div className="relative flex justify-center lg:justify-start w-full max-w-6xl px-5 text-white text-center lg:text-start">
 					<div className="w-3/4">
-						<h1 className="text-[2.5rem] font-bold leading-tight">
+						<h1 className="text-2xl md:text-[50px] font-bold leading-tight">
 							Trusted HVAC & Air Conditioning Services Since 2012!
 						</h1>
 						<p className="mt-7 text-[20px]">
