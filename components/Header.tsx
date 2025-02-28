@@ -26,7 +26,7 @@ const Header = () => {
 
 				{/* Call Button */}
 				<div>
-					<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
+					<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold hidden lg:flex">
 						Call (850) - 258 - 8144
 					</button>
 				</div>

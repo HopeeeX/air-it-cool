@@ -5,9 +5,9 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className="flex flex-col justify-center items-center py-24 gap-24">
+		<div className="flex flex-col justify-center items-center py-24 gap-24 mx-5">
 			{/* First Content */}
-			<div className="flex justify-between gap-14 items-center">
+			<div className="flex flex-col min-[1246px]:flex-row justify-between gap-14 items-center">
 				<div>
 					<Image
 						src="/About_Image1.jpg"
@@ -18,14 +18,14 @@ const About = () => {
 					/>
 				</div>
 
-				<div>
+				<div className="flex flex-col justify-center items-center min-[1246px]:justify-start min-[1246px]:items-start">
 					<h2 className="text-[16px] text-[#2478c0] font-semibold">
 						About
 					</h2>
-					<h1 className="text-[35px] text-black font-black w-[500px]">
+					<h1 className="text-[35px] text-black font-black min-[1246px]:w-[500px] w-fit text-center min-[1246px]:text-start">
 						Your Trusted Professional HVAC Repair!
 					</h1>
-					<p className="w-[550px] text-[18px] text-black font-normal mt-5">
+					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5">
 						Since 2012, Air It Cool has prioritized honesty and
 						reliability, earning a strong reputation as one of Tampa
 						Bay's most trusted HVAC companies. Committed to quality
@@ -37,22 +37,22 @@ const About = () => {
 						company’s focus on dependable, consistent service
 						throughout the Bay Area.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600 w-fit">
 						Book Appointment
 					</button>
 				</div>
 			</div>
 
 			{/* Second Content */}
-			<div className="flex justify-between gap-14 items-center">
-				<div>
+			<div className="flex flex-col min-[1246px]:flex-row min-[1246px]:justify-between gap-14 items-center">
+				<div className="flex flex-col justify-center items-center min-[1246px]:justify-start min-[1246px]:items-start">
 					<h2 className="text-[16px] text-[#2478c0] font-semibold">
 						Why Choose Us
 					</h2>
-					<h1 className="text-[35px] text-black font-black w-[550px]">
+					<h1 className="text-[35px] text-black font-black min-[1246px]:w-[500px] w-fit min-[1246px]:text-start text-center">
 						Keep Your Home Comfortable with Our Services
 					</h1>
-					<p className="w-[550px] text-[18px] text-black font-normal mt-5">
+					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5">
 						AIR IT COOL Air Conditioning & Heating, serving the Bay
 						Area since 2012, is your go-to for HVAC repairs. Our
 						highly trained, courteous technicians handle all brands
