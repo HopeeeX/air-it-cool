@@ -31,7 +31,7 @@ const Page = () => {
 				<div className="absolute inset-0 bg-black/40"></div>
 
 				{/* Text Content */}
-				<div className="relative w-full max-w-6xl px-5 text-white">
+				<div className="relative flex justify-center lg:justify-start w-full max-w-6xl px-5 text-white text-center lg:text-start">
 					<div className="w-3/4">
 						<h1 className="text-[50px] font-bold leading-tight">
 							Trusted HVAC & Air Conditioning Services Since 2012!
@@ -42,7 +42,7 @@ const Page = () => {
 							Technicians for Reliable, Fast, and Affordable
 							Service.
 						</p>
-						<div className="flex gap-8">
+						<div className="flex flex-col gap-0 md:flex-row md:gap-8 justify-center lg:justify-start">
 							<button className="mt-7 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 								Book a Service Now
 							</button>

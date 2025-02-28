@@ -54,8 +54,8 @@ const Area = () => {
 					ensuring your comfort is never compromised.
 				</p>
 
-				<div className="grid grid-cols-3 gap-5 ">
-					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8 mt-10">
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-3 md:gap-5">
+					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8">
 						<Image
 							src="/support.png"
 							alt="calendar"
@@ -67,7 +67,7 @@ const Area = () => {
 						</h2>
 					</div>
 
-					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8 mt-10">
+					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8">
 						<Image
 							src="/technician.png"
 							alt="calendar"
@@ -79,7 +79,7 @@ const Area = () => {
 						</h2>
 					</div>
 
-					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8 mt-10">
+					<div className="flex flex-col justify-center items-center bg-white/25 backdrop-blur-sm rounded-md shadow-md py-8 px-8">
 						<Image
 							src="/response.png"
 							alt="calendar"
