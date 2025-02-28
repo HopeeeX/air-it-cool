@@ -112,7 +112,7 @@ const Testimonial = () => {
 	return (
 		<div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-20">
 			<div>
-				<h1 className="text-[40px] font-bold text-center mb-8 text-black">
+				<h1 className="text-3xl font-bold text-center mb-8 text-black">
 					{" "}
 					What Our Customer Says
 				</h1>

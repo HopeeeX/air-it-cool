@@ -23,7 +23,7 @@ const CTA = () => {
 				<h2 className="font-semibold text-[18px] text-cyan-400">
 					Professional HVAC Repair Service
 				</h2>
-				<h1 className="font-bold text-[35px]">
+				<h1 className="font-bold text-3xl">
 					Want to Stay Cool & Comfortable? <br />
 					Book Your HVAC Service Today!
 				</h1>

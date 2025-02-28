@@ -21,7 +21,7 @@ const Area = () => {
 			{/* Content */}
 			<div className="relative w-full max-w-6xl px-5 text-white flex flex-col items-center justify-center py-16">
 				<h2>Our Service Area</h2>
-				<h1 className="text-[40px] font-bold">
+				<h1 className="text-3xl font-bold">
 					Professional HVAC Repair in Hillsborough County
 				</h1>
 
