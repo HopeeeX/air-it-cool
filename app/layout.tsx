@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import { Poppins } from "next/font/google";
+import Footer from "@/components/Footer";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -75,6 +76,7 @@ export const metadata: Metadata = {
 
 const poppins = Poppins({
 	weight: "400",
+	subsets: ["latin"]
 });
 
 export default function RootLayout({
@@ -87,6 +89,7 @@ export default function RootLayout({
 			<body className={`antialiased flex flex-col`}>
 				<Header />
 				{children}
+				<Footer/>
 			</body>
 		</html>
 	);

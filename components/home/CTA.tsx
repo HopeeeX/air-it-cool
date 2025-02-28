@@ -16,21 +16,26 @@ const CTA = () => {
 			</div>
 
 			{/* Overlay */}
-			<div className="absolute inset-0 bg-black/55"></div>
+			<div className="absolute inset-0 bg-black/75"></div>
 
 			{/* Content */}
-			<div className="relative w-full max-w-6xl px-5 text-white flex flex-col items-center justify-center py-16">
-				<h2>Professional HVAC Repair Service</h2>
-				<h1>
-					Want to Stay Cool & Comfortable? Book Your HVAC Service
-					Today!
+			<div className="relative w-full max-w-6xl px-5 text-white flex flex-col items-center justify-center">
+				<h2 className="font-semibold text-[18px] text-cyan-400">
+					Professional HVAC Repair Service
+				</h2>
+				<h1 className="font-bold text-[35px]">
+					Want to Stay Cool & Comfortable? <br />
+					Book Your HVAC Service Today!
 				</h1>
-				<p>
+				<p className="font-medium text-white text-[20px] pt-5">
 					Don’t let a faulty AC or heater ruin your comfort! At Air It
 					Cool, we provide fast, reliable, and affordable HVAC repair,
 					maintenance, and installation services in Hillsborough
 					County and Valrico, Florida.
 				</p>
+				<button className="mt-7 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+					Book a Service Now
+				</button>
 			</div>
 		</div>
 	);
