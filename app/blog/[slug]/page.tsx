@@ -6,12 +6,11 @@ export default async function PostPage({
 }: {
 	params: { slug: string };
 }) {
-	const { slug } = params;
+	const { slug } = await params;
 	const post = posts.find((post) => post.slug === slug);
 
 	if (!post) return notFound();
 
-	// Dynamically import the TSX component
 	const { default: PostContent } = await import(
 		`@/posts/tsx/${slug}.tsx`
 	).catch(() => null);
