@@ -1,0 +1,14 @@
+[
+	{
+		"slug": "test",
+		"title": "Best Test Ever",
+		"author": "John Dow",
+        "thumbnail": ""
+	},
+	{
+		"slug": "test2",
+		"title": "",
+		"author": "",
+        "thumbnail": ""
+	}
+]
