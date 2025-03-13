@@ -23,7 +23,7 @@ const AboutUs = () => {
 					<h1 className="text-3xl text-black font-black min-[1246px]:w-[500px] w-fit text-center min-[1246px]:text-start">
 						Your Trusted Professional HVAC Repair!
 					</h1>
-					<p className="min-[1246px]:w-[550px] w-4/5 text-[16px] text-black font-normal mt-5">
+					<p className="min-[1246px]:w-[550px] w-4/5 text-[16px] text-black font-normal mt-5 text-center min-[1246px]:text-start">
 						Since 2012 while only doing minor repairs honesty and
 						reliability has been Air It Cool’s number one priority,
 						Air It Cool Heating and Air Conditioning has built a
@@ -55,7 +55,7 @@ const AboutUs = () => {
 					<h1 className="text-3xl text-black font-black min-[1246px]:w-[500px] w-fit min-[1246px]:text-start text-center">
 						Keep Your Home Comfortable with Our Services
 					</h1>
-					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5">
+					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5 text-center min-[1246px]:text-start">
 						Before Air It Cool was around owner Y. Ulloa grew up in
 						Miami, FL, helping his Stepfather repair A/C systems for
 						his company. Mr. Ulloa began apprenticing at the age of
