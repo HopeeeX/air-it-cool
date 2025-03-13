@@ -2,6 +2,23 @@ import Image from "next/image";
 import React from "react";
 import Services from "@/components/home/Services";
 import CTA from "@/components/home/CTA";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+	title: "HVAC Services | Repairs, Installation & Maintenance | Air It Cool",
+	description:
+		"Explore Air It Cool’s comprehensive HVAC services, including AC repair, furnace maintenance, heating system installation, and indoor air quality solutions.",
+	keywords: [
+		"HVAC services",
+		"air conditioning repair",
+		"furnace maintenance",
+		"heating system installation",
+		"indoor air quality solutions",
+	],
+	alternates: {
+		canonical: "https://airitcool.com/services",
+	},
+};
 
 const page = () => {
 	return (

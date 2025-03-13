@@ -2,6 +2,23 @@ import React from "react";
 import Image from "next/image";
 import AboutUs from "@/components/about/AboutUs";
 import CTA from "@/components/home/CTA";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+	title: "About Air It Cool | Your Trusted HVAC Specialists",
+	description:
+		"Discover Air It Cool’s mission, values, and commitment to excellence. Learn how our expert team provides reliable HVAC solutions for residential and commercial needs.",
+	keywords: [
+		"About Air It Cool",
+		"HVAC company mission",
+		"trusted HVAC specialists",
+		"heating and cooling experts",
+		"air conditioning professionals",
+	],
+	alternates: {
+		canonical: "https://airitcool.com/about",
+	},
+};
 
 const page = () => {
 	return (

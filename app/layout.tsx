@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
 	metadataBase: new URL("https://airitcool.com"),
 	openGraph: {
-		siteName: "Air it Cool",
+		siteName: "Air It Cool",
 		type: "website",
 		locale: "en_US",
 	},
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
 		"max-video-preview": -1,
 		googleBot: "index, follow",
 	},
-	applicationName: "Air it Cool",
+	applicationName: "Air It Cool",
 	appleWebApp: {
-		title: "Air it Cool",
+		title: "Air It Cool",
 		statusBarStyle: "default",
 		capable: true,
 	},
