@@ -85,8 +85,20 @@ const page = () => {
 					/>
 				</div>
 			</div>
-            <Services/>
-            <CTA/>
+			<Services />
+			<div className="flex flex-col justify-center items-center w-full px-5 mb-20">
+				<h1 className="text-black font-extrabold text-3xl md:text-4xl mb-6">
+					Our Service Area
+				</h1>
+				<div className="w-full max-w-6xl">
+					<iframe
+						src="https://maps.google.com/maps?q=Chicago,Illinois&output=embed"
+						className="w-full h-[600px] border-none rounded-md"
+					/>
+				</div>
+			</div>
+
+			<CTA />
 		</div>
 	);
 };
