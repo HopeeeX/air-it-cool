@@ -1,5 +1,7 @@
+"use client"
+
 import Link from "next/link";
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 
 export default function HeaderV2({
@@ -7,6 +9,15 @@ export default function HeaderV2({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	const drawerToggle = useRef<HTMLInputElement | null>(null); // Ref to the checkbox
+
+	// Toggle the drawer when Link is clicked
+	const handleLinkClick = () => {
+		if (drawerToggle.current) {
+			drawerToggle.current.checked = false; // Uncheck the checkbox (close the drawer)
+		}
+	};
+
 	return (
 		<div className="!drawer drawer-end">
 			<div className="drawer-content flex flex-col justify-center">
@@ -21,11 +32,19 @@ export default function HeaderV2({
 						/>
 					</div>
 					<nav className="hidden md:flex gap-6 text-black font-medium">
-						<Link href="/">Home</Link>
-						<Link href="/services">Services</Link>
+						<Link href="/" onClick={handleLinkClick}>
+							Home
+						</Link>
+						<Link href="/services" onClick={handleLinkClick}>
+							Services
+						</Link>
 						{/* <Link href="/blog">Blog</Link> */}
-						<Link href="/about">About Us</Link>
-						<Link href="/contact">Contact Us</Link>
+						<Link href="/about" onClick={handleLinkClick}>
+							About Us
+						</Link>
+						<Link href="/contact" onClick={handleLinkClick}>
+							Contact Us
+						</Link>
 					</nav>
 					<div>
 						<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold hidden lg:flex">
@@ -56,7 +75,12 @@ export default function HeaderV2({
 				</div>
 				{children}
 			</div>
-			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+			<input
+				id="my-drawer-3"
+				type="checkbox"
+				className="drawer-toggle"
+				ref={drawerToggle} // Attach the ref to the checkbox
+			/>
 			<div className="drawer-side">
 				<label
 					htmlFor="my-drawer-3"
@@ -65,25 +89,32 @@ export default function HeaderV2({
 				></label>
 				<ul className="menu bg-white min-h-full w-80 p-4 gap-4">
 					<li>
-						<Link href="/">Home</Link>
+						<Link href="/" onClick={handleLinkClick}>
+							Home
+						</Link>
 					</li>
 					<li>
-						<Link href="/services">Services</Link>
+						<Link href="/services" onClick={handleLinkClick}>
+							Services
+						</Link>
 					</li>
 					{/* <li><Link href="/blog">Blog</Link></li> */}
 					<li>
-						<Link href="/about">About Us</Link>
+						<Link href="/about" onClick={handleLinkClick}>
+							About Us
+						</Link>
 					</li>
 					<li>
-						<Link href="/contact">Contact Us</Link>
+						<Link href="/contact" onClick={handleLinkClick}>
+							Contact Us
+						</Link>
 					</li>
-                    <li>
-                    <button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
+					<li>
+						<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
 							Call (850) - 258 - 8144
 						</button>
-                    </li>
+					</li>
 				</ul>
-                
 			</div>
 		</div>
 	);
