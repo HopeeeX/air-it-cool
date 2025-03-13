@@ -59,7 +59,7 @@ const page = () => {
 					<h1 className="text-3xl text-black font-black min-[1246px]:w-[500px] w-fit min-[1246px]:text-start text-center">
 						Keep Your Home Comfortable with Our Services
 					</h1>
-					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5">
+					<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-black font-normal mt-5 text-center min-[1246px]:text-start">
 						AIR IT COOL Air Conditioning & Heating, serving the Bay
 						Area since 2012, is your go-to for HVAC repairs. Our
 						highly trained, courteous technicians handle all brands
