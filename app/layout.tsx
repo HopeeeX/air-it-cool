@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
+import HeaderV2 from "@/components/HeaderV2";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -87,8 +88,9 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning className={poppins.className}>
 			<body className={`antialiased flex flex-col`}>
-				<Header />
-				{children}
+				{/* <Header />
+				{children} */}
+				<HeaderV2>{children}</HeaderV2>
 				<Footer/>
 			</body>
 		</html>
