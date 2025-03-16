@@ -22,7 +22,7 @@ export default function HeaderV2({
 		<div className="!drawer drawer-end">
 			<div className="drawer-content flex flex-col justify-center">
 				{/* Navbar */}
-				<div className="navbar w-full max-w-6xl flex justify-between px-5 bg-white py-8">
+				<div className="navbar w-full flex justify-between px-5 bg-white py-8">
 					<div>
 						<Image
 							src={"/logo.png"}
