@@ -20,28 +20,28 @@ const Contact = () => {
 
 				{/* Content */}
 				<div className="relative w-full max-w-6xl px-5 text-white flex flex-row items-center justify-between">
-					<div className="flex flex-col min-[1246px]:flex-row min-[1246px]:justify-between gap-14 items-start py-14">
-						<div className="flex flex-col justify-center items-center min-[1246px]:justify-start min-[1246px]:items-start">
-							<h1 className="text-3xl text-white font-black min-[1246px]:w-[500px] w-fit min-[1246px]:text-start text-start">
+					<div className="flex flex-col min-[77.875rem]:flex-row min-[77.875rem]:justify-between gap-14 items-start py-14">
+						<div className="flex flex-col justify-center items-center min-[77.875rem]:justify-start min-[77.875rem]:items-start">
+							<h1 className="text-3xl text-white font-black min-[77.875rem]:w-[31.25rem] w-fit min-[77.875rem]:text-start text-start">
 								Contact Us For Your HVAC Repair!
 							</h1>
-							<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-start text-white/95 font-normal mt-5">
+							<p className="min-[77.875rem]:w-[34.375rem] w-4/5 text-[1.125rem] text-start text-white/95 font-normal mt-5">
 								Fill out our quick and easy contact form below,
 								and one of our friendly representatives will get
 								back to you as soon as possible.
 							</p>
-							<p className="min-[1246px]:w-[550px] w-4/5 text-[18px] text-start text-white/95 font-normal mt-5">
+							<p className="min-[77.875rem]:w-[34.375rem] w-4/5 text-[1.125rem] text-start text-white/95 font-normal mt-5">
 								Don’t let a broken appliance disrupt your day.
 								Reach out to Air It Cool Air Conditioning &
 								Heating now and let us get your HVAC system back
 								in top shape!
 							</p>
-							<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+							<button className="mt-10 bg-blue-500 text-white text-[1.125rem] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 								Learn More About Us
 							</button>
 						</div>
 
-						<div>Form</div>
+						<div>Forms</div>
 					</div>
 				</div>
 			</div>
