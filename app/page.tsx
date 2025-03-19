@@ -1,3 +1,4 @@
+import Contact from "@/components/contact/Contact";
 import About from "@/components/home/About";
 import Area from "@/components/home/Area";
 import CTA from "@/components/home/CTA";
@@ -6,6 +7,7 @@ import Services from "@/components/home/Services";
 import Testimonial from "@/components/home/Testimonial";
 import { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import Link from "next/link";
 
 export const metadata: Metadata = {
 	title: "Air It Cool | Expert HVAC Repairs, Installation & Maintenance",
@@ -56,7 +58,6 @@ export const metadata: Metadata = {
 	},
 };
 
-
 const montserrat = Montserrat({
 	subsets: ["latin"],
 	weight: ["300", "400", "600", "700"],
@@ -93,23 +94,26 @@ const Page = () => {
 							Service.
 						</p>
 						<div className="flex flex-col gap-0 md:flex-row md:gap-8 justify-center lg:justify-start">
-							<button className="mt-7 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+							<Link href={"#contact"} className="mt-7 scroll-smooth bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 								Book a Service Now
-							</button>
+							</Link>
 
-							<button className="mt-8 text-white text-[18px] px-7 py-5 rounded-lg font-semibold border-2 hover:bg-blue-600">
+							<Link href={"/services"} className="mt-8 text-white text-[18px] px-7 py-5 rounded-lg font-semibold border-2 hover:bg-blue-600">
 								See More Services
-							</button>
+							</Link>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className={`${montserrat.className} flex flex-col`}>
-				<About />
 				<Services />
+				<About />
 				<Area />
 				<Testimonial />
 				<FAQ />
+				<div id="contact">
+				<Contact/>
+				</div>
 				<CTA />
 			</div>
 		</div>

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Image from "next/image";
 import Card from "@/components/contact/Card";
 import Contact from "@/components/contact/Contact";
+import CTA from '@/components/home/CTA';
 
 export const metadata : Metadata = {
 	title: "Contact Air It Cool | Schedule Your HVAC Service Today",
@@ -55,6 +56,7 @@ const page = () => {
 				<Card />
 			</div>
 			<Contact />
+			<CTA/>
 		</div>
 	);
 };

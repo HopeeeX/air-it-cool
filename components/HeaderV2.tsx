@@ -47,9 +47,9 @@ export default function HeaderV2({
 						</Link>
 					</nav>
 					<div>
-						<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold hidden lg:flex">
-							Call (850) - 258 - 8144
-						</button>
+					<Link href="tel:+18136812477" className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
+							Call (813) - 681 - 2477
+						</Link>
 					</div>
 					<div className="flex-none md:hidden">
 						<label
@@ -110,9 +110,9 @@ export default function HeaderV2({
 						</Link>
 					</li>
 					<li>
-						<a href="tel:+18136812477" className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
+						<Link href="tel:+18136812477" className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
 							Call (813) - 681 - 2477
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>

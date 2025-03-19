@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 
@@ -37,9 +38,9 @@ const About = () => {
 						company’s focus on dependable, consistent service
 						throughout the Bay Area.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600 w-fit">
+					<Link href={"#contact"} className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600 w-fit">
 						Book Appointment
-					</button>
+					</Link>
 				</div>
 			</div>
 
@@ -63,9 +64,9 @@ const About = () => {
 						for new AC system replacements, with no hidden charges
 						and prior approval on all repairs.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+					<Link href={"/about"} className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 						Learn More About Us
-					</button>
+					</Link>
 				</div>
 
 				<div>

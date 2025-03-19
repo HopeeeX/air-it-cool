@@ -33,9 +33,9 @@ const CTA = () => {
 					maintenance, and installation services in Hillsborough
 					County and Valrico, Florida.
 				</p>
-				<button className="mt-7 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+				<Link href={"/contact"} className="mt-7 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 					Book a Service Now
-				</button>
+				</Link>
 			</div>
 		</div>
 	);

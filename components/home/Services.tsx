@@ -34,8 +34,8 @@ const services = [
 const Services = () => {
 	return (
 		<div className="flex flex-col justify-center items-center py-10 mb-7">
-			<h1 className="text-black font-extrabold text-3xl md:text-4xl">
-				Our Services
+			<h1 className="text-black text-center font-extrabold text-3xl md:text-4xl">
+				Our Professional HVAC <br/>Services Offer
 			</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
 				{services.map((service, index) => (

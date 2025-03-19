@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const AboutUs = () => {
@@ -40,9 +41,9 @@ const AboutUs = () => {
 						enjoy a long term profitable business that serves the
 						Bay Area.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600 w-fit">
+					<Link href={"/contact"} className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600 w-fit">
 						Book Appointment
-					</button>
+					</Link>
 				</div>
 			</div>
 
@@ -67,9 +68,9 @@ const AboutUs = () => {
 						– Dover – Gibsonton - Palm River-Clair Mel, FL and
 						surrounding areas.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+					<Link href={"/about"} className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 						Learn More About Us
-					</button>
+					</Link>
 				</div>
 
 				<div>

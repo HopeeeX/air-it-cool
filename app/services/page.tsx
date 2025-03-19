@@ -3,6 +3,7 @@ import React from "react";
 import Services from "@/components/home/Services";
 import CTA from "@/components/home/CTA";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata : Metadata = {
 	title: "HVAC Services | Repairs, Installation & Maintenance | Air It Cool",
@@ -70,9 +71,9 @@ const page = () => {
 						for new AC system replacements, with no hidden charges
 						and prior approval on all repairs.
 					</p>
-					<button className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
+					<Link href={"/about"} className="mt-10 bg-blue-500 text-white text-[18px] px-7 py-5 rounded-lg font-semibold hover:bg-blue-600">
 						Learn More About Us
-					</button>
+					</Link>
 				</div>
 
 				<div>
