@@ -110,9 +110,9 @@ export default function HeaderV2({
 						</Link>
 					</li>
 					<li>
-						<button className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
-							Call (850) - 258 - 8144
-						</button>
+						<a href="tel:+18136812477" className="bg-[#2478C0] text-white px-5 py-4 rounded-md font-semibold">
+							Call (813) - 681 - 2477
+						</a>
 					</li>
 				</ul>
 			</div>
