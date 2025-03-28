@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 		"best HVAC company",
 		"heating and cooling solutions",
 		"HVAC contractors",
+		"HVAC repair in Hillsborough County"
 	],
 	openGraph: {
 		url: "https://airitcool.com",
