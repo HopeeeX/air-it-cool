@@ -79,3 +79,7 @@ html, body{
   transform: none !important;
   transition: none !important;
 }
+
+body > div.\!drawer.drawer-end > div.drawer-content.flex.flex-col.justify-center > ul > li > button {
+  display: none;
+}

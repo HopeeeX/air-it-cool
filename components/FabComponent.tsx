@@ -36,7 +36,11 @@ const FabComponent = () => {
 
   return (
     isClient && (
-      <Fab mainButtonStyles={buttonStyles} icon={<MessageSquare />}>
+      <Fab mainButtonStyles={buttonStyles} icon={<MessageSquare />}
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                    // @ts-ignore
+                    className={`rtf open`}
+      >
         {actions.map(({ icon, text, onClick }, index) => (
           <Action key={index} style={buttonStyles} text={text} onClick={onClick}>
             {icon}
