@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
 import { Poppins } from "next/font/google";
 import Footer from "@/components/Footer";
 import HeaderV2 from "@/components/HeaderV2";
+import FabComponent from "@/components/FabComponent";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 
 const poppins = Poppins({
 	weight: "400",
-	subsets: ["latin"]
+	subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -86,12 +86,17 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" suppressHydrationWarning className={`${poppins.className} scroll-smooth`}>
+		<html
+			lang="en"
+			suppressHydrationWarning
+			className={`${poppins.className} scroll-smooth`}
+		>
 			<body className={`antialiased flex flex-col`}>
-				{/* <Header />
-				{children} */}
-				<HeaderV2>{children}</HeaderV2>
-				<Footer/>
+				<HeaderV2>
+				<FabComponent />
+					{children}
+				</HeaderV2>
+				<Footer />
 			</body>
 		</html>
 	);
