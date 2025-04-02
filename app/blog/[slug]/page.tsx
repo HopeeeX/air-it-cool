@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import posts from "@/posts/index.json";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
+import PostFooter from "@/components/PostFooter";
+import PostTemplate from "@/components/PostTemplate";
 
 type Props = {
 	params: Promise<{ slug: string }>;
@@ -72,26 +75,20 @@ export default async function Page({ params }: Props) {
 	const post = posts.find((p) => p.slug === slug);
 	if (!post) return notFound();
 
-	const PostContent = await import(`@/posts/tsx/${slug}.tsx`)
-		.then((mod) => mod.default)
-		.catch(() => null);
-
-	if (!PostContent) return notFound();
-
 	return (
-		<div className="flex justify-center items-center py-20">
+		<div className="flex justify-center items-center py-20 bg-slate-100">
 			<div className="w-full max-w-5xl shadow-lg">
 				<Image
 					src={post.thumbnail}
 					width={1200}
 					height={600}
-					alt="hehe"
+					alt="Post Thumbnail"
 				/>
 				<div className="flex flex-col p-10">
 					<h1 className="text-3xl font-bold">{post.title}</h1>
 					<p className="text-blue-600">By {post.author}</p>
-					<div className="mt-4">
-						<PostContent />
+					<div className="mt-4 flex flex-col">
+						<PostTemplate content={post.content} />
 					</div>
 				</div>
 			</div>

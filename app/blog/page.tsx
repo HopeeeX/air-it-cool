@@ -22,7 +22,9 @@ const page = () => {
 
 				{/* Content */}
 				<div className="relative w-full max-w-6xl px-5 text-white flex flex-col items-center justify-center">
-					<h1 className="font-bold text-3xl">See Our Latest Blogs!</h1>
+					<h1 className="font-bold text-3xl">
+						See Our Latest Blogs!
+					</h1>
 				</div>
 			</div>
 			<div className="grid grid-cols-3 gap-5 w-3/5 py-10">
@@ -36,9 +38,11 @@ const page = () => {
 						/>
 						<div className="flex flex-col px-7 pb-5">
 							<h1 className="text-[#2478c0] text-[20px] font-semibold pt-4 pb-3">
-								{post.title}
+								<Link href={`/blog/${post.slug}`}>
+									{post.title}
+								</Link>
 							</h1>
-							<p className="text-[14px] text-black/75 font-normal text-start">
+							<p className="text-[14px] text-black/75 font-normal text-start line-clamp-5">
 								{post.description}
 							</p>
 							<Link
