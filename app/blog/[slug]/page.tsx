@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import posts from "@/posts/index.json";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 
 type Props = {
 	params: Promise<{ slug: string }>;
@@ -78,12 +79,20 @@ export default async function Page({ params }: Props) {
 	if (!PostContent) return notFound();
 
 	return (
-		<div className="flex justify-center items-center p-4">
-			<div className="w-full max-w-3xl">
-				<h1 className="text-2xl font-bold">{post.title}</h1>
-				<p className="text-gray-600">By {post.author}</p>
-				<div className="mt-4 p-4 rounded-md border border-gray-200">
-					<PostContent />
+		<div className="flex justify-center items-center py-20">
+			<div className="w-full max-w-5xl shadow-lg">
+				<Image
+					src={post.thumbnail}
+					width={1200}
+					height={600}
+					alt="hehe"
+				/>
+				<div className="flex flex-col p-10">
+					<h1 className="text-3xl font-bold">{post.title}</h1>
+					<p className="text-blue-600">By {post.author}</p>
+					<div className="mt-4">
+						<PostContent />
+					</div>
 				</div>
 			</div>
 		</div>

@@ -38,7 +38,9 @@ export default function HeaderV2({
 						<Link href="/services" onClick={handleLinkClick}>
 							Services
 						</Link>
-						{/* <Link href="/blog">Blog</Link> */}
+						<Link href="/blog" onClick={handleLinkClick}>
+							Blog
+						</Link>
 						<Link href="/about" onClick={handleLinkClick}>
 							About Us
 						</Link>
@@ -98,7 +100,11 @@ export default function HeaderV2({
 							Services
 						</Link>
 					</li>
-					{/* <li><Link href="/blog">Blog</Link></li> */}
+					<li>
+						<Link href="/blog" onClick={handleLinkClick}>
+							Blog
+						</Link>
+					</li>
 					<li>
 						<Link href="/about" onClick={handleLinkClick}>
 							About Us

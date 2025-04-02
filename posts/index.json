@@ -1,14 +1,16 @@
 [
 	{
 		"slug": "test",
-		"title": "Best Test Ever",
-		"author": "John Dow",
-        "thumbnail": ""
+		"title": "What is the meaning of HVAC System and Repair?",
+		"author": "Air It Cool",
+		"description":"Discover the meaning of HVAC systems and why repair is essential for maintaining home comfort. Learn how HVAC repair keeps your heating, ventilation, and air conditioning running smoothly year-round.",
+        "thumbnail": "/post_images/HVAC System and Repair Included.jpg"
 	},
 	{
 		"slug": "test2",
-		"title": "",
-		"author": "",
-        "thumbnail": ""
+		"title": "How Often Should I Service My HVAC System?",
+		"author": "Air It Cool",
+		"description": "Find out how often you should service your HVAC system to ensure optimal performance and efficiency. Regular maintenance prevents breakdowns, extends the life of your heating and cooling system.",
+        "thumbnail": "/post_images/How_Often_Should_You_Service_HVAC_System.jpg"
 	}
 ]
