@@ -10,6 +10,7 @@ export const metadata : Metadata = {
 		"Get in touch with Air It Cool for expert HVAC services. Contact us to book a repair, request a free estimate, or speak with our team about your heating and cooling needs.",
 	keywords: [
 		"contact Air It Cool",
+		"air conditioning services in valrico",
 		"HVAC service booking",
 		"request HVAC estimate",
 		"speak with HVAC experts",

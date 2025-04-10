@@ -12,6 +12,8 @@ export const metadata : Metadata = {
 		"About Air It Cool",
 		"HVAC company mission",
 		"trusted HVAC specialists",
+		"air conditioning services in valrico",
+		"air conditioning services in hillsborough county",
 		"heating and cooling experts",
 		"air conditioning professionals",
 	],

@@ -11,7 +11,9 @@ export const metadata : Metadata = {
 		"Explore Air It Cool’s comprehensive HVAC services, including AC repair, furnace maintenance, heating system installation, and indoor air quality solutions.",
 	keywords: [
 		"HVAC services",
+		"air conditioning services in valrico",
 		"air conditioning repair",
+		"air conditioning services in hillsborough county",
 		"furnace maintenance",
 		"heating system installation",
 		"indoor air quality solutions",

@@ -18,6 +18,8 @@ export const metadata: Metadata = {
 		"air conditioning installation",
 		"HVAC repair near me",
 		"AC maintenance experts",
+		"air conditioning services in valrico",
+		"air conditioning services in hillsborough county",
 		"best HVAC company",
 		"heating and cooling solutions",
 		"HVAC contractors",
