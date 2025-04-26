@@ -42,5 +42,27 @@
 			},
 			"p5": "Routine HVAC maintenance is the key to comfort, efficiency, and longevity. Don’t wait for problems to arise—schedule your spring and fall tune-ups with Air It Cool today! Our experts ensure your system runs at peak performance all year round. Call us now!Your HVAC system is essential for maintaining comfort in your home or business. Whether you need routine maintenance, emergency repairs, or a full system replacement, Air It Cool has you covered! Contact us today for expert HVAC repair, maintenance, and installation services to keep your system running at its best!"
 		}
+	},
+	{
+		"slug": "3",
+		"title": "What Does an HVAC Technician Check During a Repair Visit?",
+		"author": "Air It Cool",
+		"description": "Curious what happens during an HVAC repair visit? Technicians inspect thermostats, electrical parts, refrigerant levels, motors, coils, and drains to ensure your system runs safely, efficiently, and comfortably.",
+		"thumbnail": "/post_images/HVAC Repair.jpg",
+		"content": {
+			"p1": "When your heating or cooling system isn't doing its job, calling an HVAC technician is the smart move. But ever wonder what exactly they look at when they show up? Here’s a behind-the-scenes look at what happens during a repair visit.",
+			"h2_1": "System Inspection",
+			"p2": "First, the technician does a full system check—inside and out. They’ll inspect the thermostat, air filters, and ductwork to see if any obvious blockages or issues are causing poor airflow or performance.",
+			"h2_2": "Electrical Components",
+			"p3": "HVAC systems rely on wiring, relays, capacitors, and circuit boards. The tech will test these to ensure there are no shorts, voltage drops, or damaged parts. Faulty electrical components are a common source of HVAC failures.",
+			"h2_3": "Refrigerant Levels",
+			"p4": "If you’re dealing with poor cooling, low refrigerant may be the issue. The technician will check levels, look for leaks, and recharge the system if needed. Refrigerant leaks are not just inefficient—they’re bad for the environment too.",
+			"h2_4": "Conclusion",
+			"img": {
+				"src": "/post_images/HVAC Repair1.jpg",
+				"alt": "HVAC Repair"
+			},
+			"p5": "An HVAC repair visit is more than just swapping out parts—it’s a full system check to make sure everything runs smoothly and safely. If your system’s acting up, trust Air It Cool to diagnose the issue with precision and care. Your comfort is our priority—call us today!"
+		}
 	}
 ]
